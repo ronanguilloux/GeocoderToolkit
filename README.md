@@ -20,7 +20,7 @@ Just create a `composer.json` file for your project:
 {
      "require": {
         "php": ">=5.3.0",
-        "willdurand/geocoder": "*",
+        "willdurand/geocoder": "master-dev",
         "ronanguilloux/geocodertoolkit": "master-dev"
     }
 }
