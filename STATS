@@ -1,0 +1,46 @@
+phploc 1.7.1 by Sebastian Bergmann.
+
+Directories:                                          1
+Files:                                                3
+
+Lines of Code (LOC):                                141
+  Cyclomatic Complexity / Lines of Code:           0,05
+Comment Lines of Code (CLOC):                        55
+Non-Comment Lines of Code (NCLOC):                   86
+
+Namespaces:                                           1
+Interfaces:                                           1
+Traits:                                               0
+Classes:                                              1
+  Abstract:                                           0 (0,00%)
+  Concrete:                                           1 (100,00%)
+  Average Class Length (NCLOC):                      55
+Methods:                                              3
+  Scope:
+    Non-Static:                                       2 (66,67%)
+    Static:                                           1 (33,33%)
+  Visibility:
+    Public:                                           3 (100,00%)
+    Non-Public:                                       0 (0,00%)
+  Average Method Length (NCLOC):                     18
+  Cyclomatic Complexity / Number of Methods:       1,33
+
+Anonymous Functions:                                  1
+Functions:                                            0
+
+Constants:                                            0
+  Global constants:                                   0
+  Class constants:                                    0
+
+phpcpd 1.4.0 by Sebastian Bergmann.
+
+0.00% duplicated lines out of 141 total lines of code.
+
+Time: 0 seconds, Memory: 2,75Mb
+PHP_Depend 1.1.0 by Manuel Pichler
+
+
+
+Critical error: 
+=============== 
+No output specified.
