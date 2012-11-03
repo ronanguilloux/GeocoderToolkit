@@ -14,7 +14,7 @@ It provides simple tools such as
 Installation
 ------------
 
-GeocoderToolkit is not a stand-alone library: it assumes strong dependency with the [Geocoder](https://github.com/willdurand/Geocoder).
+GeocoderToolkit is not a stand-alone library: it assumes strong dependency with the [Geocoder](https://github.com/willdurand/Geocoder) PHP library.
 
 The recommended way to install Geocoder is through [composer](http://getcomposer.org).
 
