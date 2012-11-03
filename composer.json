@@ -1,0 +1,21 @@
+{
+    "name": "ronanguilloux/geocodertoolkit",
+    "type": "library",
+    "description": "Geo-related utils & toolkit PHP library, build atop the Geocoder lib",
+    "keywords": ["geo", "geometry", "geocoder", "bounds", "boundingbox"],
+    "homepage": "https://github.com/ronanguilloux/GeocoderToolkit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronan Guilloux",
+            "email": "ronan.guilloux@gmail.com"
+        }
+    ],
+   "require": {
+        "php": ">=5.3.0",
+        "willdurand/geocoder": "master-dev"
+    },
+   "autoload": {
+        "psr-0": { "GeocoderToolkit": "src/" }
+    }
+}
