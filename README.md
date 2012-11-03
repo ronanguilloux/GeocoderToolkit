@@ -4,15 +4,19 @@ GeocoderToolkit
 
 **GeocoderToolkit** is a geo-related utils & toolkit PHP library, build atop the [Geocoder](https://github.com/willdurand/Geocoder) library
 
+It provides simple tools such as
+* distant geopoints coordinates calculation (bounding box angles, etc.)
+* other geo-related tools to come (all contributors will be fully credited!)
+
 [![Build Status](https://secure.travis-ci.org/ronanguilloux/GeocoderToolkit.png?branch=master)](http://travis-ci.org/ronanguilloux/GeocoderToolkit)
 
 
 Installation
 ------------
 
-GeocoderToolkit is build atop the [Geocoder](https://github.com/willdurand/Geocoder) library: It is not a stand-alone library.
+GeocoderToolkit is not a stand-alone library: it assumes strong dependency with the [Geocoder](https://github.com/willdurand/Geocoder).
 
-The recommended way to install Geocoder is through composer.
+The recommended way to install Geocoder is through [composer](http://getcomposer.org).
 
 Just create a `composer.json` file for your project:
 
@@ -20,7 +24,7 @@ Just create a `composer.json` file for your project:
 {
      "require": {
         "php": ">=5.3.0",
-        "willdurand/geocoder": "*",
+        "willdurand/geocoder": "master-dev",
         "ronanguilloux/geocodertoolkit": "master-dev"
     }
 }
@@ -59,10 +63,10 @@ Here is an example of how to determine a new geopoint, 500 kilometers away from 
 <?php
 
 $origin = new Geocoded();
-$origin->fromArray(array('latitude'=>'47.218371', 'longitude'=>'-1.553621'));
+$origin->fromArray(array('latitude'=>'47.218371', 'longitude'=>'-1.553621')); // Nantes, Loire valley, France
 $geometry = new BoundingBoxGeometry();
 // 45 = bearing angle, 500 = distance, 'kilometer' is default, but miles are OK
-$northEast = $geometry->getAngle($origin, 45, 500);
+$northEast = $geometry->getAngle($origin, 45, 500); // a new geocoded resource
 ```
 
 
